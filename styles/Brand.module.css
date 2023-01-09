@@ -1,0 +1,26 @@
+.container {
+    background: var( --background-navBar);
+    padding-block: 0.50rem;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.75rem;
+}
+.wrapper {
+    margin-inline: 2rem;
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list li {
+    padding-inline-end: 10px;
+}
+
+
+
+.second_list {
+    margin-inline-start: auto;
+}
