@@ -1,7 +1,8 @@
 
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import { BrandHeader } from './components/brandHeader'
+import { BrandHeader } from './components/brandHeader/index'
+import { NavBar } from './components/navBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <BrandHeader />
       <header>
-      
+      <NavBar />
       </header>
       <main>
        
