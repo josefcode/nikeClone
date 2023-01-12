@@ -1,0 +1,9 @@
+.container {
+    background-color: var(--background-navBar);
+    text-align: center;
+    padding-block: 15px;
+}
+
+.small_text{
+    font-size: 0.7rem;
+}
