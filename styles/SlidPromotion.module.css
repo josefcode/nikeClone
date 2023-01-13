@@ -7,3 +7,17 @@
 .small_text{
     font-size: 0.7rem;
 }
+
+.image_wrapper {
+    padding-inline: 2rem;
+}
+.image_banner{
+  
+    position: relative;
+    height: 400px;
+    
+}
+
+.image_banner image {
+    position: absolute;
+}
