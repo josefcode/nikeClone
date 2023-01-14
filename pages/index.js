@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import { BrandHeader } from './components/brandHeader/index'
 import { NavBar } from './components/navBar'
 import { SlidePromotion } from './components/slidePromotion'
+import HeadLine from './components/headLine'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
       <SlidePromotion />
       </header>
       <main>
+      <HeadLine />
        
       </main>
     </>

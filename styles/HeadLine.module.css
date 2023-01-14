@@ -1,0 +1,37 @@
+.headContainer {
+    display: grid;
+    grid-template-areas: 'header header header header '
+                         'image image   imagetwo imageTwo';
+    padding-inline: 2rem;
+    margin-block: 3rem;
+    gap: 15px;
+}
+
+.title{
+    grid-area: header;
+
+}
+
+.head_image{
+    position: relative;
+    width: 670px;
+    height: 800px;
+    grid-area: image; 
+}
+
+.imageOne {
+   position: absolute;
+   
+   
+}
+.head_image_two{
+    position: relative;
+    width: 670px;
+    height: 800px;
+    grid-area: imageTwo; 
+}
+.imageTwo {
+    position: absolute;
+    grid-area: imageTwo;
+ }
+
