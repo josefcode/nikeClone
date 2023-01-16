@@ -35,3 +35,25 @@
     grid-area: imageTwo;
  }
 
+
+
+ .cardContainerOne {
+    position: relative;
+}
+
+.cardChild {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+
+.cardContainerTwo {
+    position: relative;
+}
+
+.cardChildTwo {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
