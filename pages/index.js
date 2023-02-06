@@ -5,6 +5,8 @@ import { BrandHeader } from './components/brandHeader/index'
 import { NavBar } from './components/navBar'
 import { SlidePromotion } from './components/slidePromotion'
 import HeadLine from './components/headLine'
+import Cards from './components/cards'
+import Footer from './components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,8 +26,10 @@ export default function Home() {
       </header>
       <main>
       <HeadLine />
-       
+
+       <Cards />
       </main>
+      <Footer />
     </>
   )
 }
