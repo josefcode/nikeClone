@@ -1,7 +1,5 @@
 .headContainer {
-    display: grid;
-    grid-template-areas: 'header header header header '
-                         'image image   imagetwo imageTwo';
+  
     padding-inline: 2rem;
     margin-block: 3rem;
     gap: 15px;
@@ -9,30 +7,27 @@
 
 .title{
     grid-area: header;
-
+    
 }
 
-.head_image{
+.cardContainer {
+    display: grid;
     position: relative;
-    width: 670px;
-    height: 800px;
-    grid-area: image; 
+    grid-template: 'image image image2 image2';
+    width: 100%;
+    height: 600px;
+    gap: 30px;
+   
 }
 
 .imageOne {
    position: absolute;
-   
-   
+   grid-area: image;
 }
-.head_image_two{
-    position: relative;
-    width: 670px;
-    height: 800px;
-    grid-area: imageTwo; 
-}
+
 .imageTwo {
     position: absolute;
-    grid-area: imageTwo;
+    grid-area: image2;
  }
 
 
@@ -83,5 +78,5 @@
 .secondBannerBtn {
     position: absolute;
     top: 200px;
-    left: 50px;
+    left: 100px;
 }
