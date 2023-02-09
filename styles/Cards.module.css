@@ -7,3 +7,12 @@
     align-items: center;
     margin-bottom: 2rem;
 }
+
+.cardContainer{
+    position: relative;
+    height: 400px;
+}
+
+.cardImage {
+    position: absolute;
+}
